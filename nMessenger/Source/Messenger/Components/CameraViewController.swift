@@ -430,7 +430,7 @@ open class CameraViewController: UIImagePickerController, UIImagePickerControlle
         PHPhotoLibrary.requestAuthorization { status in
             switch status {
                 case .authorized: completion(true)
-                case .denied, .notDetermined, .restricted : completion(false)
+            case .denied, .notDetermined, .restricted, .limited: completion(false)
             }
         }
     }
