@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
   s.name         = "NMessenger"
   s.version      = "1.0.81"
   s.summary      = "A fast, lightweight messenger component built on AsyncDisplaykit and written in Swift"
-  s.branch       = "PINCache3.0.3"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -81,7 +80,7 @@ NMessenger is a fast, lightweight messenger component built on AsyncDisplaykit a
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/ntceleste/NMessenger.git", :branch => s.branch }
+  s.source       = { :git => "https://github.com/ntceleste/NMessenger.git"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
